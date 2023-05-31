@@ -1,0 +1,44 @@
+{
+  "name": "sui-nft",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@mysten/sui.js": "^0.32.2",
+    "@next/font": "^13.0.4",
+    "@suiet/wallet-kit": "^0.2.9",
+    "@tanstack/react-query": "^4.14.5",
+    "@tanstack/react-query-devtools": "^4.14.5",
+    "axios": "^1.1.3",
+    "daisyui": "^2.38.1",
+    "eslint-config-next": "^13.0.4",
+    "moment": "^2.29.4",
+    "next": "^13.0.4",
+    "nextjs-progressbar": "^0.0.16",
+    "react": "^18.2.0",
+    "react-countdown": "^2.3.4",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.6.0",
+    "react-paginate": "^8.1.4",
+    "react-slick": "^0.29.0",
+    "react-tabs": "^5.1.0",
+    "react-toastify": "^9.1.1",
+    "sass": "^1.56.0",
+    "serverless-mysql": "^1.5.5",
+    "swr": "^2.1.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.27.0",
+    "eslint-plugin-react": "^7.31.10",
+    "postcss": "^8.4.18",
+    "prettier": "^2.7.1",
+    "prettier-plugin-tailwindcss": "^0.1.13",
+    "tailwindcss": "^3.2.2"
+  }
+}
